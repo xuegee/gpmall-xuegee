@@ -13,6 +13,7 @@ module.exports = {
   extends: 'standard',
   // required to lint *.vue files
   plugins: [
+    'vue',
     'html'
   ],
   // add your custom rules here
@@ -23,7 +24,9 @@ module.exports = {
     'generator-star-spacing': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    "no-trailing-spaces": 1
+    "no-trailing-spaces": 1,
+    "no-multi-spaces":'off',
+    'indent': 'off'
     // "semi": [2, "always"]
   }
 }
