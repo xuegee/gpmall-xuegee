@@ -10,7 +10,20 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>gpmall-parent</name>
-
+  <modules>
+    <module>../comment-service</module>
+    <module>../coupon-service</module>
+    <module>../gpmall-cashier</module>
+    <module>../gpmall-commons</module>
+    <module>../gpmall-shopping</module>
+    <module>../gpmall-user</module>
+    <module>../market-service</module>
+    <module>../order-services</module>
+    <module>../pay-service</module>
+    <module>../search-service</module>
+    <module>../shopping-service</module>
+    <module>../user-service</module>
+  </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -42,12 +55,12 @@
     <repository>
       <id>maven-release</id>
       <name>Nexus Release Repository</name>
-      <url>http://maven.igper.com/repository/maven-releases/</url>
+      <url>http://123.56.229.134:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>maven-snapshots</id>
       <name>Nexus Snapshot Repository</name>
-      <url>http://maven.igper.com/repository/maven-snapshots/</url>
+      <url>http://123.56.229.134:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
