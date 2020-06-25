@@ -3,12 +3,12 @@ dubbo:
     name: gpmall-user
     owner: Mic
   registry:
-    address: zookeeper://zk.gpmall.com:2181
+    address: zookeeper://182.92.179.16:2181
     check: true
     group: dubbo-dev
     simplified: true
   metadata-report:
-    address: zookeeper://zk.gpmall.com:2181
+    address: zookeeper://182.92.179.16:2181
     retry-times: 30
     cycle-report: false
     group: dubbo-dev
